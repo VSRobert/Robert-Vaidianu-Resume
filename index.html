@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" type ="text/css" href="./style.css">
+  <link rel="icon" type="image/x-icon" sizes="16x16" href="./img/portofolio.png"/>
   
 </head>
 
@@ -32,11 +33,12 @@
            
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="about">About</a>
-                <ul class="dropdown-menu" style="background-color: white;">
+                <ul class="dropdown-menu" style="background-color: white; opacity: 0.7;">
                   <li><a class="dropdown-item" href="#Experience" style="color: #0174BE;">Experience</a></li>
                   <li><a class="dropdown-item" href="#Studies" style="color: #0174BE;">Studies</a></li>
                   <li><a class="dropdown-item" href="#Certificates" style="color: #0174BE;">Certificates</a></li>
                   <li><a class="dropdown-item" href="#Skills" style="color: #0174BE;">Skills</a></li>
+                  <li><a class="dropdown-item" href="#Projects" style="color: #0174BE;">Projects</a></li>
                 </ul>
               </li>
             </ul>
@@ -44,6 +46,7 @@
               <button type="button" class="btn"><a href="https://www.linkedin.com/in/robert-văidianu-b0a7ba144"><img src="./img/linkedin.png" alt="linkedin logo" id="button1" /></a></button>
               <button type="button" class="btn"><a href="https://www.instagram.com/robertvaidianu/"><img src="./img/instagram.png" alt="instagram logo" id="button1" /></a></button>
               <button type="button" class="btn"><a href="https://www.youtube.com/watch?v=ZWuhnIR1m2U"><img src="./img/youtube.png" alt="instagram logo" id="button1" style="background-color: white;" /></a></button>
+              <button type="button" class="btn"><a href="https://github.com/VSRobert"><img src="./img/github.png" alt="github logo" id="button1" /></a></button>
             </div>
           </div>
         </div>
@@ -58,7 +61,7 @@
       <div class="container-xxl bd-gutter">
         <div class="col-md-8 mx-auto text-center">
           
-          <img src="./img/robert2.png" width="200" height="230" alt="Robert Vaidianu" style="border-radius: 50%; margin-top: 40px ; margin-bottom: 30px;">
+          <img src="./img/robert2.png" width="200" height="230" alt="Robert Vaidianu" style="border-radius: 50%; margin-top: 40px ; margin-bottom: 30px; opacity: 0.8;">
           <h1 class="mb-3 fw-semibold lh-1" style="font-family: Modern , sans-serif ; color: #0174BE;">Robert Văidianu</h1>
           <ul style="list-style-type: none; font-family: Lucida Handwriting , cursive ; color: #0174BE; font-size: small;">
             <li>Learning to become Web Developer</li>
@@ -67,7 +70,7 @@
           </ul>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start poza-container">
             <img src="./img/Hiker.gif" class="poza2" />
-            <img src="./img/drone3.gif" class="poza3" style="text-align: end"/>
+            <img src="./img/drone3.gif" class="poza3" style="text-align: end ; opacity: 0.9;"/>
             
           </div>
           
@@ -75,7 +78,7 @@
       </div>
     </section>
 
-   
+
 
     <!--Experience-->
     <section id="Experience">
@@ -153,11 +156,11 @@
         <div class="accordion" id="accordionExample">
           <div class="accordion-item" >
             <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="collapse-button">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="collapse-button">
                 Academy of Economic Studies Bucharest 
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <ul style="list-style-type: none">
                   <li><strong>Accounting and Management Information Systems</strong><br ></li>
@@ -349,6 +352,40 @@
     </section>
 
 
+
+    <!--Projects-->
+    <section id="Projects">
+      
+      <div class="container pb-5">
+        <h2 class="pb-2" style="color:#0174BE !important ; font-weight: 600 !important; text-align: center;">Projects</h2>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner" style="height: 500px;"> 
+                <div class="carousel-item active" >
+                    <a href="https://vsrobert.github.io/Move-It/"><img src="./img/move-it.PNG" class="d-block w-100 h-100 object-fit-cover" alt="move-it website"></a>
+                </div>
+                <div class="carousel-item ">
+                    <a href="https://vsrobert.github.io/TinDog/"><img src="./img/tindog.PNG" class="d-block w-100 h-100 object-fit-cover" alt="tindog website"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://vsrobert.github.io/Drum-Kit/"><img src="./img/drum-kit.PNG" class="d-block w-100 h-100 object-fit-cover" alt="drum-kit website"></a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="false" style="color: black; background-color: black;"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="false" style="color: black; background-color: black;"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </div>
+    </section>
+  
+
+
+
+
     <!--Contact-->
     <section id="Contact">
       <div class="container">
@@ -363,6 +400,7 @@
              <li class="nav-item mb-2"><a href="#Studies" class="nav-link p-0 text-body-secondary">Studies</a></li>
              <li class="nav-item mb-2"><a href="#Certificates" class="nav-link p-0 text-body-secondary">Certificates</a></li>
              <li class="nav-item mb-2"><a href="#Skills" class="nav-link p-0 text-body-secondary">Skills</a></li>
+             <li class="nav-item mb-2"><a href="#Projects" class="nav-link p-0 text-body-secondary">Projects</a></li>
              
            </ul>
          </div>
@@ -379,7 +417,7 @@
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Email: vaidianu.robert@gmail.com</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Phone: (+40)760525333</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Address: Bucharest, Romania</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><button type="button" class="btn"><a href="https://www.linkedin.com/in/robert-văidianu-b0a7ba144"><img src="./img/linkedin.png" alt="linkedin logo" id="button1" /></a></button><button type="button" class="btn"><a href="https://www.instagram.com/robertvaidianu/"><img src="./img/instagram.png" alt="instagram logo" id="button1" /></a></button><button type="button" class="btn"><a href="https://www.youtube.com/watch?v=ZWuhnIR1m2U"><img src="./img/youtube.png" alt="instagram logo" id="button1" /></a></button></a></li>   
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><button type="button" class="btn"><a href="https://www.linkedin.com/in/robert-văidianu-b0a7ba144"><img src="./img/linkedin.png" alt="linkedin logo" id="button1" /></a></button><button type="button" class="btn"><a href="https://www.instagram.com/robertvaidianu/"><img src="./img/instagram.png" alt="instagram logo" id="button1" /></a></button><button type="button" class="btn"><a href="https://www.youtube.com/watch?v=ZWuhnIR1m2U"><img src="./img/youtube.png" alt="instagram logo" id="button1" /></a></button><button type="button" class="btn"><a href="https://github.com/VSRobert"><img src="./img/github.png" alt="github logo" id="button1" /></a></button></a></li>   
             
           </ul>
         </div>
